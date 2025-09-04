@@ -1,0 +1,10 @@
+.testttt {
+    color: green;
+    z-index: 10000;
+    background-color: white;
+}
+
+.testttt::hover {
+    cursor: grabbing;
+    background-color: blue;
+}

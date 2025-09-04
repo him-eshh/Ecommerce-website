@@ -1,0 +1,17 @@
+/* Use the same adjustments as in product.module.css for card styles */
+
+.cartitem,
+.orderitem {
+    border-bottom: 1px solid #ddd;
+    padding: 1.5rem;
+    /* Adjusted padding */
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cartitem:hover,
+.orderitem:hover {
+    background-color: #c8e6c9;
+    /* Adjusted background color */
+}

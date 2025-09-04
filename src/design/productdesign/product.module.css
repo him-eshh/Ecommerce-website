@@ -1,0 +1,24 @@
+.productcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    /* Adjusted column width */
+    gap: 0.5rem;
+    /* Adjusted gap */
+}
+
+.productcard {
+    max-width: 100%;
+    margin-bottom: 10px;
+    /* Adjusted margin */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Adjusted box-shadow */
+    transition: transform 0.3s ease-in-out;
+    background-color: #000000;
+    border-radius: 4px;
+    /* Adjusted border-radius */
+}
+
+.productcardhover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}

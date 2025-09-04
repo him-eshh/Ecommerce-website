@@ -1,0 +1,55 @@
+/* Default Button */
+.buttondefault {
+    @apply inline-block;
+    @apply px-4 py-2;
+    @apply text-white font-bold;
+    @apply transition duration-300 ease-in-out;
+    @apply rounded-md;
+    @apply bg-gray-600;
+    @apply hover:bg-gray-800;
+}
+
+/* Primary Button */
+.buttonprimary {
+    @apply inline-block;
+    @apply px-4 py-2;
+    @apply text-white font-bold;
+    @apply transition duration-300 ease-in-out;
+    @apply rounded-md;
+    @apply bg-blue-500;
+    @apply hover:bg-blue-700;
+    gap: 0.5rem;
+}
+
+/* Success Button */
+.buttonsuccess {
+    @apply inline-block;
+    @apply px-4 py-2;
+    @apply text-white font-bold;
+    @apply transition duration-300 ease-in-out;
+    @apply rounded-md;
+    @apply bg-green-500;
+    @apply hover:bg-green-700;
+}
+
+/* Warning Button */
+.buttonwarning {
+    @apply inline-block;
+    @apply px-4 py-2;
+    @apply text-white font-bold;
+    @apply transition duration-300 ease-in-out;
+    @apply rounded-md;
+    @apply bg-yellow-500;
+    @apply hover:bg-yellow-700;
+}
+
+/* Danger Button */
+.buttondanger {
+    @apply inline-block;
+    @apply px-4 py-2;
+    @apply text-white font-bold;
+    @apply transition duration-300 ease-in-out;
+    @apply rounded-md;
+    @apply bg-red-500;
+    @apply hover:bg-red-700;
+}
