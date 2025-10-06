@@ -1,4 +1,4 @@
-Below is a single, copy‑paste Markdown file that matches the requested structure and styling. Paste it directly into README.md on GitHub.
+
 
 # 🛍️ ECOMMERCE-WEBSITE
 **Transform Shopping Into Seamless, Effortless Experiences**
